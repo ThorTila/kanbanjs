@@ -1,0 +1,16 @@
+@mixin flex($direction: '', $justify: '', $align: '') {
+    display: flex;
+    @if $direction != '' { flex-direction: $direction; }
+    @if $justify != '' { justify-content: $justify; }
+    @if $align != '' { align-items: $align; }
+}
+@mixin margin-auto {
+    margin-right: auto;
+    margin-left: auto;
+}
+@mixin margin($top: '', $right: '', $bottom: '', $left: '') {
+    @if $top != '' { margin-top: $top; }
+    @if $right != '' { margin-right: $right; }
+    @if $bottom != '' { margin-bottom: $bottom; }
+    @if $left != '' { margin-left: $left; }
+}
