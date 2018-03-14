@@ -55,6 +55,8 @@ button.btn-delete:hover { text-shadow: 1px 1px 0px rgba(255, 255, 255, 0.3), -1p
 
 .board .column-container .column ul li { list-style-type: none; }
 
+.board .column-container .column ul li.card-placeholder { display: block; height: 60px; background: rgba(0, 0, 0, 0.2); border-radius: 10px; border: 1px solid black; }
+
 .board .column-container .column ul li p { display: inline-block; width: 80%; border-bottom: 2px inset rgba(0, 0, 0, 0.3); cursor: pointer; word-wrap: break-word; font-family: 'Kavivanar', cursive; font-size: 20px; }
 
 .board .column-container .column ul li p:hover { border-bottom-style: outset; }

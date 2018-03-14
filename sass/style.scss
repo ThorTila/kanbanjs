@@ -152,6 +152,13 @@ button {
                 min-height: 50px;
                 li {
                     list-style-type: none;
+                    &.card-placeholder {
+                        display: block;
+                        height: 60px;
+                        background: rgba(0,0,0,.2);
+                        border-radius: 10px;
+                        border: 1px solid black;
+                    }
                     p {
                         display: inline-block;
                         width: 80%;
